@@ -1,5 +1,8 @@
-Datasets and Code of "Nonlinear Behaviors of Transceivers for Terahertz Communications: Data Sets and Models"
----
+<h1 align="center">
+Nonlinear Behaviors of Transceivers for Terahertz Communications: Data Sets and Models
+</h1>
+
+This repository provides the datasets and implementation code accompanying the paper *“Nonlinear Behaviors of Transceivers for Terahertz Communications: Data Sets and Models.”*  
 
 ## 1. Experimental Platform
 
@@ -21,6 +24,7 @@ The description of the test signals in the experiments are summarized in Table 1
 <div align="center">
   
 **Table 1. Descriptions of the test signals in the experimental platform**
+
 | Test Signal | Frequency Band | Carrier Frequency | Bandwidth |
 |----------------|----------|------------|------------|
 | PA W 1G | W | 96 GHz | 1 GHz |
@@ -32,6 +36,7 @@ The description of the test signals in the experiments are summarized in Table 1
 | PA G 1G | G | 228 GHz | 1 GHz |
 | PA G 2G | G | 228 GHz | 2 GHz |
 | PA G 4G | G | 228 GHz | 4 GHz |
+
 </div>
 
 ## 2. Nonlinearity Analysis
