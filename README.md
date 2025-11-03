@@ -3,8 +3,14 @@ Datasets and Code of "Nonlinear Behaviors of Transceivers for Terahertz Communic
 
 ## Experimental Platform
 
-Fig. 1 illustrates the experimental setup of the PA test bench, composed of a PC, an arbitrary waveform generator (AWG), mixers, a power amplifier (PA), transmitter and receiver horn antennas, and an oscilloscope.
+Figure. 1 illustrates the experimental setup of the PA test bench, composed of a PC, an arbitrary waveform generator (AWG), mixers, a power amplifier (PA), transmitter and receiver horn antennas, and an oscilloscope.
 The baseband input signals are 16/64-quadrature amplitude modulation (16-QAM/64-QAM) orthogonal frequency division multiplexing (OFDM) signals. 
+
+<p align="center">
+  <img src="figure/experimentalplatform.png" alt="Model Structure" width="800"/><br>
+   <strong>Figure 1. Photograph of the PA test bench</strong>
+</p>
+
 At the transmitter side, the baseband signal is loaded by the AWG, and then up-coverted to different test frequency bands through a mixer. 
 The corresponding radio frequency signal is amplified by the PA and subsequently radiated through the transmitter horn antenna. 
 Following a 1.0-meter wireless transmission, the signal is captured by the receiver horn antenna. 
@@ -13,9 +19,8 @@ The description of the test signals in the experiments are summarized in Table 1
 
 <div align="center">
   
-### Table 1 Descriptions of the test signals in the experimental platform
-
-| | Frequency Band | Carrier Frequency | Bandwidth |
+**Table 1. Descriptions of the test signals in the experimental platform**
+| Test Signal | Frequency Band | Carrier Frequency | Bandwidth |
 |----------------|----------|------------|------------|
 | PA W 1G | W | 96 GHz | 1 GHz |
 | PA W 2G | W | 96 GHz | 2 GHz |
@@ -26,7 +31,6 @@ The description of the test signals in the experiments are summarized in Table 1
 | PA G 1G | G | 228 GHz | 1 GHz |
 | PA G 2G | G | 228 GHz | 2 GHz |
 | PA G 4G | G | 228 GHz | 4 GHz |
-
 </div>
 
 ## Nonlinearity Analysis
